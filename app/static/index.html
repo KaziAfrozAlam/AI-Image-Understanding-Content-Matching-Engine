@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Image &amp; Content Matching Engine</title>
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app" class="layout">
+    <aside id="sidebar" class="sidebar">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">◆</div>
+        <div class="brand-text">
+          <div class="brand-title">VisionMatch</div>
+          <div class="brand-sub">Content Matching Engine</div>
+        </div>
+      </div>
+
+      <div class="env-pill" id="envPill">local · sim</div>
+
+      <nav id="nav" class="nav">
+        <button class="nav-item active" data-tab="dashboard"><span class="ic">◫</span> Dashboard</button>
+        <button class="nav-item" data-tab="images"><span class="ic">🖼</span> Images</button>
+        <button class="nav-item" data-tab="matching"><span class="ic">⚡</span> Posts &amp; Match</button>
+        <button class="nav-item" data-tab="review"><span class="ic">✓</span> Review Queue</button>
+        <button class="nav-item" data-tab="jobs"><span class="ic">⚙</span> Jobs</button>
+        <button class="nav-item" data-tab="evaluation"><span class="ic">◎</span> Evaluation</button>
+        <button class="nav-item" data-tab="usage"><span class="ic">$</span> Usage &amp; Cost</button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="live-dot-wrap"><span class="live-dot"></span> API live</div>
+        <div class="side-health" id="sideHealth">–</div>
+      </div>
+    </aside>
+
+    <div class="main-col">
+      <header class="topbar">
+        <div class="crumbs" id="crumbs">Dashboard</div>
+        <div class="topbar-right">
+          <div class="stat-chips" id="statChips"></div>
+          <button id="refreshBtn" class="icon-btn" title="Refresh data">⟳</button>
+        </div>
+      </header>
+
+      <main id="content" class="content"></main>
+    </div>
+  </div>
+
+  <div id="toasts" class="toasts"></div>
+  <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal" id="modal"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
