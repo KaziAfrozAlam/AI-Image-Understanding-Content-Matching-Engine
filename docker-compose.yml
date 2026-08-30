@@ -1,0 +1,62 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: image_matching
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    command: ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
+    environment:
+      APP_ENV: development
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/image_matching
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      VISION_MODEL: ${VISION_MODEL:-gemini-1.5-flash}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-models/text-embedding-004}
+      SIMILARITY_THRESHOLD: "0.75"
+      CONFIDENCE_THRESHOLD: "0.70"
+      ACCEPT_CONFIDENCE: "0.80"
+      MAX_RETRIES: "3"
+      WORKER_ENABLED: "0"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+
+  worker:
+    build: .
+    command: ["sh", "-c", "alembic upgrade head && python -m app.workers.job_runner"]
+    environment:
+      APP_ENV: development
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/image_matching
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      VISION_MODEL: ${VISION_MODEL:-gemini-1.5-flash}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-models/text-embedding-004}
+      SIMILARITY_THRESHOLD: "0.75"
+      CONFIDENCE_THRESHOLD: "0.70"
+      ACCEPT_CONFIDENCE: "0.80"
+      MAX_RETRIES: "3"
+    depends_on:
+      db:
+        condition: service_healthy
+      api:
+        condition: service_started
+    volumes:
+      - ./data:/app/data
+
+volumes:
+  pgdata:

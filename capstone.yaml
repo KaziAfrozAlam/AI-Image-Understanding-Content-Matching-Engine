@@ -1,0 +1,15 @@
+run: docker compose up --build
+seed: python scripts/seed.py
+test: pytest
+base_url: http://localhost:8000
+endpoints:
+  - GET /health
+  - GET /images
+  - GET /posts
+  - GET /posts/{post_id}/images
+  - POST /posts/{post_id}/match
+  - GET /jobs/{job_id}
+  - GET /reviews
+  - POST /evaluation/run
+  - GET /evaluation/latest
+  - GET /usage
