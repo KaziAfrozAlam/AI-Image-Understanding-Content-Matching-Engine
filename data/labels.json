@@ -1,0 +1,561 @@
+{
+  "fox_01.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.915
+  },
+  "fox_02.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.93
+  },
+  "fox_03.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.945
+  },
+  "fox_04.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.96
+  },
+  "fox_05.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.9
+  },
+  "fox_06.jpg": {
+    "subject": "fox",
+    "category": "animal",
+    "attributes": [
+      "orange fur",
+      "wild",
+      "forest",
+      "predator",
+      "mammal"
+    ],
+    "caption": "A red fox standing in a forest.",
+    "confidence": 0.915
+  },
+  "wolf_01.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.915
+  },
+  "wolf_02.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.93
+  },
+  "wolf_03.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.945
+  },
+  "wolf_04.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.96
+  },
+  "wolf_05.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.9
+  },
+  "wolf_06.jpg": {
+    "subject": "wolf",
+    "category": "animal",
+    "attributes": [
+      "gray fur",
+      "wild",
+      "forest",
+      "predator",
+      "canine"
+    ],
+    "caption": "A gray wolf in a forest.",
+    "confidence": 0.915
+  },
+  "dog_01.jpg": {
+    "subject": "dog",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "loyal",
+      "canine"
+    ],
+    "caption": "A domestic dog looking at the camera.",
+    "confidence": 0.915
+  },
+  "dog_02.jpg": {
+    "subject": "dog",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "loyal",
+      "canine"
+    ],
+    "caption": "A domestic dog looking at the camera.",
+    "confidence": 0.93
+  },
+  "dog_03.jpg": {
+    "subject": "dog",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "loyal",
+      "canine"
+    ],
+    "caption": "A domestic dog looking at the camera.",
+    "confidence": 0.945
+  },
+  "dog_04.jpg": {
+    "subject": "dog",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "loyal",
+      "canine"
+    ],
+    "caption": "A domestic dog looking at the camera.",
+    "confidence": 0.96
+  },
+  "dog_05.jpg": {
+    "subject": "dog",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "loyal",
+      "canine"
+    ],
+    "caption": "A domestic dog looking at the camera.",
+    "confidence": 0.9
+  },
+  "bear_01.jpg": {
+    "subject": "bear",
+    "category": "animal",
+    "attributes": [
+      "brown fur",
+      "wild",
+      "large",
+      "mammal"
+    ],
+    "caption": "A brown bear in the wilderness.",
+    "confidence": 0.915
+  },
+  "bear_02.jpg": {
+    "subject": "bear",
+    "category": "animal",
+    "attributes": [
+      "brown fur",
+      "wild",
+      "large",
+      "mammal"
+    ],
+    "caption": "A brown bear in the wilderness.",
+    "confidence": 0.93
+  },
+  "bear_03.jpg": {
+    "subject": "bear",
+    "category": "animal",
+    "attributes": [
+      "brown fur",
+      "wild",
+      "large",
+      "mammal"
+    ],
+    "caption": "A brown bear in the wilderness.",
+    "confidence": 0.945
+  },
+  "bear_04.jpg": {
+    "subject": "bear",
+    "category": "animal",
+    "attributes": [
+      "brown fur",
+      "wild",
+      "large",
+      "mammal"
+    ],
+    "caption": "A brown bear in the wilderness.",
+    "confidence": 0.96
+  },
+  "bear_05.jpg": {
+    "subject": "bear",
+    "category": "animal",
+    "attributes": [
+      "brown fur",
+      "wild",
+      "large",
+      "mammal"
+    ],
+    "caption": "A brown bear in the wilderness.",
+    "confidence": 0.9
+  },
+  "deer_01.jpg": {
+    "subject": "deer",
+    "category": "animal",
+    "attributes": [
+      "tan fur",
+      "wild",
+      "forest",
+      "herbivore"
+    ],
+    "caption": "A deer standing in a grassy clearing.",
+    "confidence": 0.915
+  },
+  "deer_02.jpg": {
+    "subject": "deer",
+    "category": "animal",
+    "attributes": [
+      "tan fur",
+      "wild",
+      "forest",
+      "herbivore"
+    ],
+    "caption": "A deer standing in a grassy clearing.",
+    "confidence": 0.93
+  },
+  "deer_03.jpg": {
+    "subject": "deer",
+    "category": "animal",
+    "attributes": [
+      "tan fur",
+      "wild",
+      "forest",
+      "herbivore"
+    ],
+    "caption": "A deer standing in a grassy clearing.",
+    "confidence": 0.945
+  },
+  "deer_04.jpg": {
+    "subject": "deer",
+    "category": "animal",
+    "attributes": [
+      "tan fur",
+      "wild",
+      "forest",
+      "herbivore"
+    ],
+    "caption": "A deer standing in a grassy clearing.",
+    "confidence": 0.96
+  },
+  "deer_05.jpg": {
+    "subject": "deer",
+    "category": "animal",
+    "attributes": [
+      "tan fur",
+      "wild",
+      "forest",
+      "herbivore"
+    ],
+    "caption": "A deer standing in a grassy clearing.",
+    "confidence": 0.9
+  },
+  "cat_01.jpg": {
+    "subject": "cat",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "feline",
+      "soft fur"
+    ],
+    "caption": "A cat resting indoors.",
+    "confidence": 0.915
+  },
+  "cat_02.jpg": {
+    "subject": "cat",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "feline",
+      "soft fur"
+    ],
+    "caption": "A cat resting indoors.",
+    "confidence": 0.93
+  },
+  "cat_03.jpg": {
+    "subject": "cat",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "feline",
+      "soft fur"
+    ],
+    "caption": "A cat resting indoors.",
+    "confidence": 0.945
+  },
+  "cat_04.jpg": {
+    "subject": "cat",
+    "category": "animal",
+    "attributes": [
+      "domestic",
+      "pet",
+      "feline",
+      "soft fur"
+    ],
+    "caption": "A cat resting indoors.",
+    "confidence": 0.96
+  },
+  "bird_01.jpg": {
+    "subject": "bird",
+    "category": "animal",
+    "attributes": [
+      "wings",
+      "wild",
+      "sky",
+      "avian"
+    ],
+    "caption": "A bird perched on a branch.",
+    "confidence": 0.915
+  },
+  "bird_02.jpg": {
+    "subject": "bird",
+    "category": "animal",
+    "attributes": [
+      "wings",
+      "wild",
+      "sky",
+      "avian"
+    ],
+    "caption": "A bird perched on a branch.",
+    "confidence": 0.93
+  },
+  "bird_03.jpg": {
+    "subject": "bird",
+    "category": "animal",
+    "attributes": [
+      "wings",
+      "wild",
+      "sky",
+      "avian"
+    ],
+    "caption": "A bird perched on a branch.",
+    "confidence": 0.945
+  },
+  "bird_04.jpg": {
+    "subject": "bird",
+    "category": "animal",
+    "attributes": [
+      "wings",
+      "wild",
+      "sky",
+      "avian"
+    ],
+    "caption": "A bird perched on a branch.",
+    "confidence": 0.96
+  },
+  "fish_01.jpg": {
+    "subject": "fish",
+    "category": "animal",
+    "attributes": [
+      "scales",
+      "wild",
+      "ocean",
+      "aquatic"
+    ],
+    "caption": "A fish swimming underwater.",
+    "confidence": 0.915
+  },
+  "fish_02.jpg": {
+    "subject": "fish",
+    "category": "animal",
+    "attributes": [
+      "scales",
+      "wild",
+      "ocean",
+      "aquatic"
+    ],
+    "caption": "A fish swimming underwater.",
+    "confidence": 0.93
+  },
+  "fish_03.jpg": {
+    "subject": "fish",
+    "category": "animal",
+    "attributes": [
+      "scales",
+      "wild",
+      "ocean",
+      "aquatic"
+    ],
+    "caption": "A fish swimming underwater.",
+    "confidence": 0.945
+  },
+  "forest_01.jpg": {
+    "subject": "forest",
+    "category": "environment",
+    "attributes": [
+      "trees",
+      "green",
+      "wild",
+      "peaceful"
+    ],
+    "caption": "A quiet forest with tall trees.",
+    "confidence": 0.915
+  },
+  "forest_02.jpg": {
+    "subject": "forest",
+    "category": "environment",
+    "attributes": [
+      "trees",
+      "green",
+      "wild",
+      "peaceful"
+    ],
+    "caption": "A quiet forest with tall trees.",
+    "confidence": 0.93
+  },
+  "forest_03.jpg": {
+    "subject": "forest",
+    "category": "environment",
+    "attributes": [
+      "trees",
+      "green",
+      "wild",
+      "peaceful"
+    ],
+    "caption": "A quiet forest with tall trees.",
+    "confidence": 0.945
+  },
+  "ocean_01.jpg": {
+    "subject": "ocean",
+    "category": "environment",
+    "attributes": [
+      "water",
+      "blue",
+      "waves",
+      "vast"
+    ],
+    "caption": "A wide ocean view with waves.",
+    "confidence": 0.915
+  },
+  "ocean_02.jpg": {
+    "subject": "ocean",
+    "category": "environment",
+    "attributes": [
+      "water",
+      "blue",
+      "waves",
+      "vast"
+    ],
+    "caption": "A wide ocean view with waves.",
+    "confidence": 0.93
+  },
+  "mountain_01.jpg": {
+    "subject": "mountain",
+    "category": "environment",
+    "attributes": [
+      "rocky",
+      "high",
+      "snow",
+      "wild"
+    ],
+    "caption": "A tall mountain against the sky.",
+    "confidence": 0.915
+  },
+  "mountain_02.jpg": {
+    "subject": "mountain",
+    "category": "environment",
+    "attributes": [
+      "rocky",
+      "high",
+      "snow",
+      "wild"
+    ],
+    "caption": "A tall mountain against the sky.",
+    "confidence": 0.93
+  },
+  "blurry_subject_01.jpg": {
+    "subject": "unknown",
+    "category": "unknown",
+    "attributes": [],
+    "caption": "A low-quality, blurry image that is difficult to classify.",
+    "confidence": 0.3
+  }
+}
